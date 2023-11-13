@@ -2,7 +2,6 @@ package Moto;
 
 public class Moto {
 	private String fabricante;
-	private String Teste;
 
 	public String getFabricante() {
 		return fabricante;
