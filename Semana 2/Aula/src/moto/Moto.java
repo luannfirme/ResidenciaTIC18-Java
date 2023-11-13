@@ -1,4 +1,4 @@
-package Moto;
+package moto;
 
 public class Moto {
 	private String fabricante;
