@@ -48,8 +48,8 @@ pessoa1.saudacao(); // Chamada do método de um objeto
 <br>
 <p align="left"><h3>Java</h3></p>
 <i>Classes:</i>
+<br>
 <code>
-ˋˋˋ
 public class Carro {
     private String marca;
     privateString modelo;
@@ -86,7 +86,6 @@ public class Pessoa {
         System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
     }
 }
-ˋˋˋ
 </code>
 <i>Objetos:</i>
 <code>
