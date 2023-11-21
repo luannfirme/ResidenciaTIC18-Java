@@ -10,7 +10,7 @@ objeto? Dê 5 exemplos mostrando-os em C++ e em Java.</p>
 
 <p align="left"><h3>C++</h3></p>
 <i>Classes:</i>
-~~~cpp
+<code>
 class Carro {
 public:
     std::string marca;
@@ -31,10 +31,9 @@ public:
         std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
     }
 };
-~~~
-
+</code>
 <i>Objetos:</i>
-~~~cpp
+<code>
 Carro meuCarro;
 meuCarro.marca = "Toyota";
 meuCarro.modelo = "Corolla";
@@ -45,12 +44,11 @@ Pessoa pessoa1;
 pessoa1.nome = "Ana";
 pessoa1.idade = 30;
 pessoa1.saudacao(); // Chamada do método de um objeto
-
-~~~
+</code>
 <br>
 <p align="left"><h3>Java</h3></p>
 <i>Classes:</i>
-~~~java
+<code>
 public class Carro {
     private String marca;
     privateString modelo;
@@ -87,9 +85,9 @@ public class Pessoa {
         System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
     }
 }
-~~~
+</code>
 <i>Objetos:</i>
-~~~java
+<code>
 	Carro meuCarro = new Carro();
 	carro.setMarca("Toyota");
 	carro.setModelo("Corolla");
@@ -100,7 +98,7 @@ public class Pessoa {
 	pessoa1.setNome("Ana");
 	pessoa1.setIdade(30);
 	pessoa1.saudacao();
-~~~
+</code>
 <br>
 <br>
 <p align="left"><b>2.</b> Como você declara uma variável em Java e quais são os tipos de dados 
@@ -139,7 +137,7 @@ A herança em Java (assim como em C++) é um conceito fundamental que permite a 
 <p align="left">Para criar uma subclasse em Java, você usa a palavra-chave extends seguida do nome da classe da qual você quer herdar.</p>
 <p align="left"><h3>C++</h3></p>
 <i>Classe pai:</i>
-~~~cpp
+<code>
 class Animal {
 public:
     void fazerSom() {
@@ -153,9 +151,9 @@ public:
         std::cout << "Veículo se movendo." << std::endl;
     }
 };
-~~~
+</code>
 <i>Classes filhas:</i>
-~~~cpp
+<code>
 class Cachorro : public Animal {
 public:
     void latir() {
@@ -168,12 +166,11 @@ public:
         std::cout << "Motor do carro ligado." << std::endl;
     }
 };
-
-~~~
+</code>
 <br>
 <p align="left"><h3>Java</h3></p>
 <i>Classes pai:</i>
-~~~java
+<code>
 public class Animal {
     public void fazerSom() {
         System.out.println("Barulho genérico de animal");
@@ -185,9 +182,9 @@ public class Veiculo {
         System.out.println("Veículo se movendo.");
     }
 }
-~~~
+</code>
 <i>Classes filhas:</i>
-~~~java
+<code>
 public class Cachorro extends Animal {
     public void latir() {
         System.out.println("Au au!");
@@ -198,7 +195,7 @@ public class Carro extends Veiculo {
         System.out.println("Motor do carro ligado.");
     }
 }
-~~~
+</code>
 <br>
 <br>
 <p align="left"><b>4.</b> Quando declaramos uma variável em Java, temos, na verdade, um ponteiro. 
