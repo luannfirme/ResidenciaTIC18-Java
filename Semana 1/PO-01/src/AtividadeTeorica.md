@@ -9,7 +9,7 @@ objeto? Dê 5 exemplos mostrando-os em C++ e em Java.</p>
 <p align="left">Aqui estão 5 exemplos de classes e objetos em C++ e Java:</p>
 
 <p align="left"><h3>C++</h3></p>
-<i>Classes:</i>
+<p align="left"><h3><h5>Classes:</h5></p>
 <code>
 class Carro {
 public:
@@ -32,7 +32,7 @@ public:
     }
 };
 </code>
-<i>Objetos:</i>
+<p align="left"><h3><h5>Objetos:</h5></p>
 <code>
 Carro meuCarro;
 meuCarro.marca = "Toyota";
@@ -49,7 +49,6 @@ pessoa1.saudacao(); // Chamada do método de um objeto
 <p align="left"><h3>Java</h3></p>
 <i>Classes:</i>
 <br>
-``` Ruby
 public class Carro {
     private String marca;
     privateString modelo;
@@ -86,7 +85,6 @@ public class Pessoa {
         System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
     }
 }
-```
 <i>Objetos:</i>
 <code>
 	Carro meuCarro = new Carro();
