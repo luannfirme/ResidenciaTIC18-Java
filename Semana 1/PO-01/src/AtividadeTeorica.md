@@ -9,9 +9,9 @@ objeto? Dê 5 exemplos mostrando-os em C++ e em Java.</p>
 <p align="left">Aqui estão 5 exemplos de classes e objetos em C++ e Java:</p>
 
 <p align="left"><h3>C++</h3></p>
-<p align="left"><h3><h5>Classes:</h5></p>
-<div>
-`class Carro {`
+<p align="left"><h5>Classes:</h5></p>
+<code>
+class Carro {
 public:
     std::string marca;
     std::string modelo;
@@ -31,8 +31,8 @@ public:
         std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
     }
 };
-</div>
-<p align="left"><h3><h5>Objetos:</h5></p>
+</code>
+<p align="left"><h5>Objetos:</h5></p>
 <code>
 Carro meuCarro;
 meuCarro.marca = "Toyota";
@@ -43,12 +43,12 @@ meuCarro.ligar();
 Pessoa pessoa1;
 pessoa1.nome = "Ana";
 pessoa1.idade = 30;
-pessoa1.saudacao(); // Chamada do método de um objeto
+pessoa1.saudacao();
 </code>
 <br>
 <p align="left"><h3>Java</h3></p>
-<i>Classes:</i>
-<br>
+<p align="left"><h5>Classes:</h5></p>
+<code>
 public class Carro {
     private String marca;
     privateString modelo;
@@ -85,7 +85,8 @@ public class Pessoa {
         System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
     }
 }
-<i>Objetos:</i>
+</code>
+<p align="left"><h5>Objetos:</h5></p>
 <code>
 	Carro meuCarro = new Carro();
 	carro.setMarca("Toyota");
@@ -135,7 +136,7 @@ A herança em Java (assim como em C++) é um conceito fundamental que permite a 
 </p>
 <p align="left">Para criar uma subclasse em Java, você usa a palavra-chave extends seguida do nome da classe da qual você quer herdar.</p>
 <p align="left"><h3>C++</h3></p>
-<i>Classe pai:</i>
+<p align="left"><h5>Classes pai:</h5></p>
 <code>
 class Animal {
 public:
@@ -151,7 +152,7 @@ public:
     }
 };
 </code>
-<i>Classes filhas:</i>
+<p align="left"><h5>Classes filhas:</h5></p>
 <code>
 class Cachorro : public Animal {
 public:
@@ -168,7 +169,7 @@ public:
 </code>
 <br>
 <p align="left"><h3>Java</h3></p>
-<i>Classes pai:</i>
+<p align="left"><h5>Classes pai:</h5></p>
 <code>
 public class Animal {
     public void fazerSom() {
@@ -182,7 +183,7 @@ public class Veiculo {
     }
 }
 </code>
-<i>Classes filhas:</i>
+<p align="left"><h5>Classes filhas:</h5></p>
 <code>
 public class Cachorro extends Animal {
     public void latir() {
