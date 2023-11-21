@@ -10,7 +10,7 @@ objeto? Dê 5 exemplos mostrando-os em C++ e em Java.</p>
 
 <p align="left"><h3>C++</h3></p>
 <p align="left"><h3><h5>Classes:</h5></p>
-~~~ cpp
+<div>
 class Carro {
 public:
     std::string marca;
@@ -31,7 +31,7 @@ public:
         std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
     }
 };
-~~~
+</div>
 <p align="left"><h3><h5>Objetos:</h5></p>
 <code>
 Carro meuCarro;
