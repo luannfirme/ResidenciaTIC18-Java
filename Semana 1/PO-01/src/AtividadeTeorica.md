@@ -10,50 +10,50 @@ objeto? Dê 5 exemplos mostrando-os em C++ e em Java.</p>
 
 <p align="left"><h3>C++</h3></p>
 <p align="left"><h5>Classes:</h5></p>
-<code>
-class Carro {
-public:
-    std::string marca;
-    std::string modelo;
-    int ano;
+<div>
 
-    void ligar() {
-        std::cout << "Carro ligado!" << std::endl;
-    }
-};
-
-class Pessoa {
-public:
-    std::string nome;
-    int idade;
-
-    void saudacao() {
-        std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
-    }
-};
-</code>
+        class Carro {
+        public:
+            std::string marca
+            std::string modelo
+            int ano
+            void ligar(){
+                std::cout << "Carro ligado!" << std::endl;
+                }
+        }
+        class Pessoa {
+        public:
+            std::string nome;
+            int idade;
+            void saudacao() {
+                std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
+            }
+        };
+</div>
 <p align="left"><h5>Objetos:</h5></p>
-<code>
-Carro meuCarro;
-meuCarro.marca = "Toyota";
-meuCarro.modelo = "Corolla";
-meuCarro.ano = 2020;
-meuCarro.ligar();
-
-Pessoa pessoa1;
-pessoa1.nome = "Ana";
-pessoa1.idade = 30;
-pessoa1.saudacao();
-</code>
+<div>
+        
+        Carro meuCarro;
+        meuCarro.marca = "Toyota";
+        meuCarro.modelo = "Corolla";
+        meuCarro.ano = 2020;
+        meuCarro.ligar();
+        
+        Pessoa pessoa1;
+        pessoa1.nome = "Ana";
+        pessoa1.idade = 30;
+        pessoa1.saudacao();
+</div>
 <br>
 <p align="left"><h3>Java</h3></p>
 <p align="left"><h5>Classes:</h5></p>
-<code>
-public class Carro {
-    private String marca;
-    privateString modelo;
-    int ano;
-    
+<div>
+        
+        public class Carro {
+            private String marca;
+            privateString modelo;
+            int ano;
+            
 	public void setMarca(String marca) {
 			this.marca = marca;
 	}
@@ -69,10 +69,10 @@ public class Carro {
     void ligar() {
         System.out.println("Carro ligado!");
     }
-}
-public class Pessoa {
-    String nome;
-    int idade;
+        }
+        public class Pessoa {
+            String nome;
+            int idade;
     
 	public void setNome(String nome) {
 			this.nome = nome;
@@ -84,10 +84,11 @@ public class Pessoa {
     void saudacao() {
         System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
     }
-}
-</code>
+        }
+</div>
 <p align="left"><h5>Objetos:</h5></p>
-<code>
+<div>
+        
 	Carro meuCarro = new Carro();
 	carro.setMarca("Toyota");
 	carro.setModelo("Corolla");
@@ -98,7 +99,7 @@ public class Pessoa {
 	pessoa1.setNome("Ana");
 	pessoa1.setIdade(30);
 	pessoa1.saudacao();
-</code>
+</div>
 <br>
 <br>
 <p align="left"><b>2.</b> Como você declara uma variável em Java e quais são os tipos de dados 
@@ -137,65 +138,69 @@ A herança em Java (assim como em C++) é um conceito fundamental que permite a 
 <p align="left">Para criar uma subclasse em Java, você usa a palavra-chave extends seguida do nome da classe da qual você quer herdar.</p>
 <p align="left"><h3>C++</h3></p>
 <p align="left"><h5>Classes pai:</h5></p>
-<code>
-class Animal {
-public:
-    void fazerSom() {
-        std::cout << "Barulho genérico de animal" << std::endl;
-    }
-};
-
-class Veiculo {
-public:
-    void mover() {
-        std::cout << "Veículo se movendo." << std::endl;
-    }
-};
-</code>
+<div>
+        
+        class Animal {
+        public:
+            void fazerSom() {
+                std::cout << "Barulho genérico de animal" << std::endl;
+            }
+        };
+        
+        class Veiculo {
+        public:
+            void mover() {
+                std::cout << "Veículo se movendo." << std::endl;
+            }
+        };
+</div>
 <p align="left"><h5>Classes filhas:</h5></p>
-<code>
-class Cachorro : public Animal {
-public:
-    void latir() {
-        std::cout << "Au au!" << std::endl;
-    }
-};
-class Carro : public Veiculo {
-public:
-    void ligarMotor() {
-        std::cout << "Motor do carro ligado." << std::endl;
-    }
-};
-</code>
+<div>
+        
+        class Cachorro : public Animal {
+        public:
+            void latir() {
+                std::cout << "Au au!" << std::endl;
+            }
+        };
+        class Carro : public Veiculo {
+        public:
+            void ligarMotor() {
+                std::cout << "Motor do carro ligado." << std::endl;
+            }
+        };
+</div>
 <br>
 <p align="left"><h3>Java</h3></p>
 <p align="left"><h5>Classes pai:</h5></p>
-<code>
-public class Animal {
-    public void fazerSom() {
-        System.out.println("Barulho genérico de animal");
-    }
-}
-
-public class Veiculo {
-    public void mover() {
-        System.out.println("Veículo se movendo.");
-    }
-}
-</code>
+<div>
+                
+        public class Animal {
+            public void fazerSom() {
+                System.out.println("Barulho genérico de animal");
+            }
+        }
+        
+        public class Veiculo {
+            public void mover() {
+                System.out.println("Veículo se movendo.");
+            }
+        }
+</div>
 <p align="left"><h5>Classes filhas:</h5></p>
-<code>
-public class Cachorro extends Animal {
-    public void latir() {
-        System.out.println("Au au!");
-    }
-}
-public class Carro extends Veiculo {
-    public void ligarMotor() {
-        System.out.println("Motor do carro ligado.");
-    }
-}
-</code>
+<div>
+        
+        public class Cachorro extends Animal {
+            public void latir() {
+                System.out.println("Au au!");
+            }
+        }
+        public class Carro extends Veiculo {
+            public void ligarMotor() {
+                System.out.println("Motor do carro ligado.");
+            }
+        }
+</div>
 <br>
 <br>
 <p align="left"><b>4.</b> Quando declaramos uma variável em Java, temos, na verdade, um ponteiro. 
